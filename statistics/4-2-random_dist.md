@@ -1,6 +1,6 @@
 [Think Stats Chapter 4 Exercise 2](http://greenteapress.com/thinkstats2/html/thinkstats2005.html#toc41) (a random distribution)
 
->> I first generate a random list
+I first generate a random list
 ```
 random_list = [random.randint(0,1000) for p in range(0,10001)]
 ```

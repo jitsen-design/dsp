@@ -1,6 +1,8 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
->>I first create relevant lists for the analysis, filtering and capturing weight and length of pregnancy variables for first-born children and others, respectively.
+>>
+
+I first create relevant lists for the analysis, filtering and capturing weight and length of pregnancy variables for first-born children and others, respectively.
 
 ```
 preg = nsfg.ReadFemPreg()
@@ -24,7 +26,7 @@ def CohenEffectSize(group1, group2):
     pooled_var = (n1 * var1 + n2 * var2) / (n1 + n2)
     d = diff / math.sqrt(pooled_var)
     return d
-    ```
+```
 
 ```
 CohenEffectSize(firsts_wgt, others_wgt), CohenEffectSize(firsts_prg, others_prg)
