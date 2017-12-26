@@ -44,13 +44,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-`ls` - list files in a directory
-`ls -a` - list files in a directory including hidden files 
-`ls -l` - list contents of a file in long format
-`ls -lh` - list long format with  readable filesize 
-`ls -lah` - list long format with readable filesize including hidden files
-`ls -t` - order files and directories by time of last modification
-`ls -Glp` - list contents of file in long format, with `/` seperator
+`ls` - list files in a directory<br/>
+`ls -a` - list files in a directory including hidden files <br/>
+`ls -l` - list contents of a file in long format<br/>
+`ls -lh` - list long format with  readable filesize<br/>
+`ls -lah` - list long format with readable filesize including hidden files<br/>
+`ls -t` - order files and directories by time of last modification<br/>
+`ls -Glp` - list contents of file in long format, with `/` seperator<br/>
 
 ---
 
@@ -58,11 +58,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-`ls -S` - order files by filesize
-`ls -R` - recursively list files and directories
-`ls -x` - list files in row format
-`ls -s` - indicate filesize in blocks
-`ls -u` - list files by last access time
+`ls -S` - order files by filesize<br/>
+`ls -R` - recursively list files and directories<br/>
+`ls -x` - list files in row format<br/>
+`ls -s` - indicate filesize in blocks<br/>
+`ls -u` - list files by last access time<br/>
 
 ---
 
