@@ -20,15 +20,15 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-`pwd` - show current working directory path
-`mkdir` - creating a directory
-`rm -r` - deleting a directory (and sub-directories)
-`touch` - creating a file using `touch` command
-`rm` - deleting a file
-`mv` - renaming a file (also used to move files from one directory to another)
-`ls -a` -listing hidden files
-`cp` - copying a file from one directory to another
-`>>`  - add contents of one file to another
+`pwd` - show current working directory path<br/>
+`mkdir` - creating a directory<br/>
+`rm -r` - deleting a directory (and sub-directories)<br/>
+`touch` - creating a file using `touch` command<br/>
+`rm` - deleting a file<br/>
+`mv` - renaming a file (also used to move files from one directory to another)<br/>
+`ls -a` -listing hidden files<br/>
+`cp` - copying a file from one directory to another<br/>
+`>>`  - add contents of one file to another<br/>
 `sort` - sort the contents of a file
 
 ---
