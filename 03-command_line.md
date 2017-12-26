@@ -20,14 +20,23 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`pwd` - show current working directory path
+`mkdir` - creating a directory
+`rm -r` - deleting a directory (and sub-directories)
+`touch` - creating a file using `touch` command
+`rm` - deleting a file
+`mv` - renaming a file (also used to move files from one directory to another)
+`ls -a` -listing hidden files
+`cp` - copying a file from one directory to another
+`>>`  - add contents of one file to another
+`sort` - sort the contents of a file
 
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
+`ls` 
 `ls -a`  
 `ls -l`  
 `ls -lh`  
@@ -35,7 +44,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`ls` - list files in a directory
+`ls -a` - list files in a directory including hidden files 
+`ls -l` - list contents of a file in long format
+`ls -lh` - list long format with  readable filesize 
+`ls -lah` - list long format with readable filesize including hidden files
+`ls -t` - order files and directories by time of last modification
+`ls -Glp` - list contents of file in long format, with `/` seperator
 
 ---
 
@@ -43,7 +58,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`ls -S` - order files by filesize
+`ls -R` - recursively list files and directories
+`ls -x` - list files in row format
+`ls -s` - indicate filesize in blocks
+`ls -u` - list files by last access time
 
 ---
 
@@ -51,7 +70,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`xargs` lets /bin commands such as `echo` and `mkdir` access standard input as arguments. For example, we can use xargs to create directories using a string:
+
+`$ echo "one, two, three" | xargs mkdir`
 
  
 
