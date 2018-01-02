@@ -22,7 +22,7 @@ def multi_sample_2(lam, m):
         sample_list.append(x)
     thinkplot.plot([x for x in range(m)], sample_list)
     thinkplot.show()
-    print('rmse L:', RMSE(sample_list, lam))
+    print('rmse of Samples:', RMSE(sample_list, lam))
     
             
 time_differential(2), multi_sample_2(2, 10)
